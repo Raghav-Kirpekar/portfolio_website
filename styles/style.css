@@ -515,30 +515,6 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-content {
-        grid-template-columns: 1fr;
-    }
-    
-    .profile-image {
-        text-align: center;
-    }
-    
-    .project-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    nav ul {
-        gap: 1rem;
-    }
-    
-    header h1 {
-        font-size: 2rem;
-    }
-}
-
-/* From Uiverse.io by wilsondesouza */ 
 ul {
     list-style: none;
   }
@@ -635,3 +611,28 @@ ul {
     background-color: #2565be;
   }
   
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-image {
+        text-align: center;
+    }
+    
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    nav ul {
+        gap: 1rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
